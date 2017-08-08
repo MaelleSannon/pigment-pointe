@@ -6,7 +6,6 @@ var bodyParser = require('body-parser')
 var app = express()
 
 
-
 // set up EJS
 app.set('view engine', 'ejs')   //behind the scenes, requires ejs
 // allows us to put css and images and stuff inside views folder
@@ -18,8 +17,8 @@ app.get('/', function(request, response){
     response.render('home.ejs')
 })
 
-app.get('/about-us', function(request, response){
-    response.render('about-us.ejs')
+app.get('/our-story', function(request, response){
+    response.render('our-story.ejs')
 })
 
 app.get('/women', function(request, response){
@@ -57,6 +56,10 @@ app.get('/shipping', function(request, response){
 
 app.get('/frequently-asked-questions', function(request, response){
     response.render('frequently-asked-questions.ejs')
+})
+
+app.get('/shoppingCart', function(request, response){
+    response.render('shoppingCart.ejs')
 })
 
 app.get('/shoppingCart', function(request, response){
