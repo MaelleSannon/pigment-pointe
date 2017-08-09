@@ -75,16 +75,43 @@ footer { background-color:	#000000; min-height:350px; font-family: 'Alegreya', s
     text-align: right;
 }
 
-.carousel-inner > .item > img {
-  width:2000px;
-  height:700px;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+width:1540px;
+  height:760px;
 }
 
- .navbar-nav{
-     background-color: #ffffff;
-     
- }
- 
+navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: black;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav .navbar-right > .active > a, .navbar-default .navbar-nav  .navbar-right> .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: white; /*BACKGROUND color for active*/
+background-color: black;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: black;
+    color: white;
+}
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: white; /*Change active text color here*/
+    }
+
+
+.navbar-default{
+    border: none;
+    background-color: black; 
+}
  h1{
 font-family: 'Cinzel', serif;
      
@@ -95,10 +122,7 @@ font-family: 'Cinzel', serif;
      font-family: 'Playfair Display', serif;
  }
  
- .navbar-form{
-     font-family: 'Playfair Display', serif;
-     
- }
+ 
  
  #parent {
     width: 1000px;
@@ -119,6 +143,7 @@ font-family: 'Cinzel', serif;
 }
 
 .logo2{
+    padding-right: 70px;
     
 }
 
@@ -189,9 +214,7 @@ font-family: 'Dancing Script', cursive;
         .price .tag {
             margin: 0;
         }
-          .navbar {
-            background-color:  #f2f2f2
-        }
+
         
         footer.page-footer {
             background-color: #676b74;
@@ -296,3 +319,6 @@ font-family: 'Dancing Script', cursive;
              
               padding-top: 50px;
         }
+        
+        
+       

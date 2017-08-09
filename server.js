@@ -58,13 +58,16 @@ app.get('/frequently-asked-questions', function(request, response){
     response.render('frequently-asked-questions.ejs')
 })
 
-app.get('/shoppingCart', function(request, response){
+app.get('/four-colt', function(request, response){
+    response.render('four-col.html')
+})
+
+app.get('/shop', function(request, response){
     response.render('shoppingCart.ejs')
 })
 
-app.get('/shoppingCart', function(request, response){
-    response.render('shoppingCart.ejs')
-})
+
+
 
 var port = process.env.PORT
 
