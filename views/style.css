@@ -53,17 +53,21 @@ footer { background-color:	#000000; min-height:350px; font-family: 'Alegreya', s
     padding-right: 150px;
     padding-bottom: 50px;
     padding-left: 150px;
-     
- 
+    
+    
     position: relative;
     float: left;
     width:  515px;
     height: 500px;
     background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-     
+   
  }
+    
+    
+  
+     
+ 
+ 
  
  .navbar {
     -webkit-border-radius: 0;
